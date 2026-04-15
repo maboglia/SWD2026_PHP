@@ -2,8 +2,6 @@
 
 ## Repo del corso SWD 2026 - Programmazione PHP
 
-Ecco il programma del corso sintetizzato come richiesto:
-
 ## Costrutti Linguaggio (24h)
 * **Variabili, tipi**: Fondamenti dati.
 * **Operatori, espressioni**: Calcolo logico.
