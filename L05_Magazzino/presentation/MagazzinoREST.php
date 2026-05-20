@@ -1,0 +1,31 @@
+<?php
+
+include_once '../services/Magazzino.php';
+
+class MagazzinoREST {
+
+    private Magazzino $magazzino;
+
+    public function __construct() {
+        $this->magazzino = new Magazzino();
+    }
+
+    public function getFornitori(): string {
+        
+        return json_encode($this->magazzino->getFornitori());
+    }
+
+    public function getFornitoreById(int $idFornitore): string {
+        return json_encode($this->magazzino->getFornitoreById($idFornitore));
+    }
+
+}
+
+
+
+
+
+
+
+
+
